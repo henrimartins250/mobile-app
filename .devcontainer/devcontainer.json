@@ -1,16 +1,8 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
   "features": {
-    "ghcr.io/devcontainers/features/rust:1": {},
-    "ghcr.io/duduribeiro/devcontainer-features/neovim:1": {},
-    "devwasm.azurecr.io/dev-wasm/dev-wasm-feature/rust-wasi:0": {},
-    "ghcr.io/nordcominc/devcontainer-features/android-sdk:1": {},
     "ghcr.io/devcontainers/features/nix:1": {
-      
-    },
-    "ghcr.io/devcontainers-community/templates/dart:1": {},
-    "ghcr.io/nils-geistmann/devcontainers-features/zsh:0": {},
-    "ghcr.io/devcontainer-community/devcontainer-features/zellij.dev:1": {}
-    
+      "extraNixConfig": "extra-experimental-features = nix-command flakes"
+    }
   }
 }
