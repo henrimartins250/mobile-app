@@ -1,5 +1,5 @@
 {
-  description = "A Nix flake for a Flutter and Android development environment.";
+  description = "❄️A Nix flake for a Flutter and Android development environment.❄️";
 
   inputs = {
     # Nixpkgs is the primary source of packages.
@@ -57,9 +57,9 @@
           export PATH=$PATH:$ANDROID_HOME/build-tools/34.0.0
 
           # Provide some common commands for the user.
-          echo "Environment set up successfully."
-          echo "Run 'flutter doctor' to verify the installation."
-          echo "Run 'sdkmanager --licenses' to accept the Android SDK licenses."
+          echo "❄️Environment set up successfully.❄️"
+          echo "📱Run 'flutter doctor' to verify the installation.📱"
+          echo "✔️Run 'sdkmanager --licenses' to accept the Android SDK licenses.✔️"
           echo "If 'flutter doctor' still shows issues, you may need to manually install additional SDK components with 'sdkmanager'."
         '';
       };
